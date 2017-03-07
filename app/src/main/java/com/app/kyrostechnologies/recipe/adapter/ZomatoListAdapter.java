@@ -36,6 +36,7 @@ import java.util.List;
 public class ZomatoListAdapter extends RecyclerView.Adapter<ZomatoListAdapter.MyViewHolder> {
     private Context mContext;
     private List<NearbyRestaurant>zomatolist;
+    private  int sd=0;
 
     public  ZomatoListAdapter(List<NearbyRestaurant>zomatolist, Context mContext){
        this.zomatolist=zomatolist;
