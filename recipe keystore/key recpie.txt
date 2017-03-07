@@ -1,0 +1,39 @@
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android 
+
+GMAIL:
+
+Alias name: androiddebugkey
+Creation date: 17 Jan, 2016
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Android Debug, O=Android, C=US
+Issuer: CN=Android Debug, O=Android, C=US
+Serial number: 2871f7b1
+Valid from: Sun Jan 17 21:05:34 IST 2016 until: Tue Jan 09 21:05:34 IST 2046
+Certificate fingerprints:
+         MD5:  AD:A5:01:51:A9:EC:4E:97:6F:F8:4A:F6:F0:FE:81:DF
+         SHA1: EC:C7:D8:8F:45:99:A9:70:BD:82:D6:EB:6A:2B:FA:D6:7D:AB:35:62
+         SHA256: 34:EA:4D:EE:0C:4B:38:87:67:00:0D:43:B9:EF:63:B4:AC:6E:8F:11:FE:0C:E1:4B:A7:80:C9:AD:A4:67:BE:11
+         Signature algorithm name: SHA256withRSA
+         Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: D7 C0 D1 63 35 9E DB E5   5B 85 9B 2B 9F CC 67 B7  ...c5...[..+..g.
+0010: 93 3F DA B7                                        .?..
+]
+]
+
+
+facebook
+
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64
+
+
+C:\Program Files (x86)\Java\jre1.8.0_74\bin>keytool -exportcert -alias androiddebugkey -keystore C:\Users\Thirunavukkarasu\.android\debug.keystore | C:\bin\openssl.exe sha1 -binary | C:\bin\openssl.exe base64
+Enter keystore password:  android
+vN2PRJhc2gjZyYteOD9aIV4w6dg=

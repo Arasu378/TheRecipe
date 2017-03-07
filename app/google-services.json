@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "351480250968",
+    "firebase_url": "https://the-recipe-63950.firebaseio.com",
+    "project_id": "the-recipe-63950",
+    "storage_bucket": "the-recipe-63950.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351480250968:android:5ee781eb8285266c",
+        "android_client_info": {
+          "package_name": "com.app.kyrostechnologies.recipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351480250968-8o3ds3p825tousc5ehmdrrj6ehgeppvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.kyrostechnologies.recipe",
+            "certificate_hash": "ecc7d88f4599a970bd82d6eb6a2bfad67dab3562"
+          }
+        },
+        {
+          "client_id": "351480250968-1hdq4nhar6413ov1ka8vhsmgqthga5kd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMWRalR2S_ojXEilOggafh_x7y6jcekd8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351480250968-1hdq4nhar6413ov1ka8vhsmgqthga5kd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

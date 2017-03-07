@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">The Recipe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <!--exit notification-->
+    <string name="press_again_exit_app">Press again to exit</string>
+
+    <string name="facebook_app_id">404273669921259</string>
+
+    <string name="fb_login_protocol_scheme">fb404273669921259</string>
+    <string name="near_by_restaurant">Near By Restaurant</string>
+    <string name="Rs">\u20B9</string>
+</resources>
